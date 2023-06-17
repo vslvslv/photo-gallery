@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Create Workout</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Add your input fields and form controls here -->
+  <ion-item>
+    <ion-label>Name</ion-label>
+    <ion-input [(ngModel)]="workout.name" name="name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Exercise Time</ion-label>
+    <ion-input [(ngModel)]="workout.time" name="time"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>MusclesWorked</ion-label>
+    <ion-input [(ngModel)]="workout.musclesWorked" name="musclesWorked"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Exercises</ion-label>
+    <ion-input [(ngModel)]="workout.exercises" name="exercises"></ion-input>
+  </ion-item>
+
+  <!-- Add more fields as needed -->
+
+  <!-- Add buttons to save/cancel the workout -->
+  <ion-button (click)="saveWorkout()">Save</ion-button>
+  <ion-button (click)="closeModal()">Cancel</ion-button>
+</ion-content>

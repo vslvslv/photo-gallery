@@ -35,7 +35,9 @@
     "@ionic/core": "^7.0.14",
     "@ionic/pwa-elements": "^3.1.1",
     "ionicons": "^7.0.0",
+    "pg": "^8.11.0",
     "rxjs": "^7.5.0",
+    "sequelize": "^6.32.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
